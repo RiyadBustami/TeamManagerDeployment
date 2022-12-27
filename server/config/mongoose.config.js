@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 mongoose.set('strictQuery',true);
-mongoose.connect("mongodb://127.0.0.1:27017/team_manager_DB", {
+mongoose.connect("mongodb://localhost/team_manager_DB", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
